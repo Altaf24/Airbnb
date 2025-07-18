@@ -36,7 +36,7 @@ import MyListing from './pages/MyListing'
 import ViewCard from './pages/ViewCard'
 import MyBooking from './pages/MyBooking'
 import Booked from './pages/Booked'
-import Signup from './pages/Signup'
+import Signup from './pages/SignUp'
 
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/login' element={<Login/>}/>
-      <Route path='/signup' element={<SignUp/>}/>
+      <Route path='/signup' element={<Signup/>}/>
       <Route path='/listingpage1' 
       element={userData != null ? <ListingPage1/>:<Navigate to={"/"}/>}/>
       <Route path='/listingpage2' 
