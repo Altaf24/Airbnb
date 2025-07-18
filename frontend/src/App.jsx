@@ -36,7 +36,7 @@ import MyListing from './pages/MyListing'
 import ViewCard from './pages/ViewCard'
 import MyBooking from './pages/MyBooking'
 import Booked from './pages/Booked'
-import SignUp from './pages/Signup'
+import Signup from './pages/Signup'
 
 
 function App() {
